@@ -3,7 +3,7 @@ require('./db/mongoose')
 const deviceRouter = require('./routers/device')
 
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 5000
 
 // parse json
 app.use(express.json())
